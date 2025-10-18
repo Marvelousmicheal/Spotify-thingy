@@ -35,7 +35,7 @@ export default function NowPlayingWidget() {
                     {isOnline && nowPlaying?.isPlaying ? (
                         <>
                             <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                            <span className="text-primary text-xs font-medium uppercase tracking-wider">Now Playing</span>
+                            <span className="text-primary text-xs font-medium uppercase tracking-wider">Luca is currently Playing</span>
                         </>
                     ) : (
                         <>
