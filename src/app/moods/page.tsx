@@ -1,3 +1,4 @@
+import AiRecommendations from "@/components/ai-recommendations";
 import MoodSelectionGrid from "@/components/MoodSelectionGrid";
 
 export default function MoodsPage() {
@@ -10,6 +11,9 @@ export default function MoodsPage() {
            <h1 className="text-5xl md:text-6xl font-bold text-white tracking-tight">How are you feeling?</h1>
           <p className="text-xl text-muted-foreground">Select a mood to get personalized recommendations</p>
          </div>
+          <div className="flex justify-center mb-2.5 pb-8 border-b border-border">
+          <AiRecommendations/>
+        </div>
 
          <MoodSelectionGrid/>
        </div>
